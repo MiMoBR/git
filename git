@@ -1,0 +1,45 @@
+-> Para Inicializar o push
+$ git init
+
+
+-> Apresentar o repositorio
+$ git remote add origin https://reinaldo_nani@bitbucket.org/reinaldo_nani/platform.git
+
+
+-> Status
+$ git status
+
+
+-> Status Branch
+$ git branch
+
+
+-> Fazer push
+git add .
+git commit -m 'Here the menssage'
+git push
+
+
+-> Fazer Pull
+git pull
+
+
+-> Remover
+$ git remote -v
+origin  https://reinaldo_nani@bitbucket.org/reinaldo_nani/platform.git (fetch)
+origin  https://reinaldo_nani@bitbucket.org/reinaldo_nani/platform.git (push)
+
+$ git remote rm https://reinaldo_nani@bitbucket.org/reinaldo_nani/platform.git
+ou
+$ git remote rm origin
+
+
+--> Add new 
+$ git remote add origin https://reinaldo_nani@bitbucket.org/bovcontrol/platform.git
+
+$ git add . --force
+
+--> pull again
+$ git push --force
+$ git push --set-upstream origin master --force
+$ git pull
